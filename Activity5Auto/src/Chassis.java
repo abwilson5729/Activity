@@ -8,7 +8,7 @@ public interface Chassis {
   public Chassis getChassisType();
 
   //The definition nof a public setChassisType that accepts a string named
-  public void getChassisType(String vehicleChassis);
+  public void setChassisType(String vehicleChassis);
 
 
 }

@@ -5,6 +5,10 @@ public class VehicleFrame implements Chassis{
   private String vehicleFrameType;
 
   @Override
+  public void setChassisType(String vehicleChassis) {
+
+  }
+
   public Chassis getChassisType() {
     return null;
   }
@@ -17,8 +21,5 @@ public class VehicleFrame implements Chassis{
     vehicleFrameType = "Unibody";
   }
 
-  @Override
-  public void getChassisType(String vehicleChassis) {
 
-  }
 }

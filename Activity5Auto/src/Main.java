@@ -6,7 +6,7 @@ public class Main {
         System.out.println(myVc.toString());
 
         VehicleChassis myVc2 = new VehicleChassis("chaz");
-        System.out.println();
+        System.out.println(myVc2.toString());
 
     }
 }

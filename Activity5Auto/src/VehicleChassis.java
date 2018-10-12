@@ -19,7 +19,7 @@ public class VehicleChassis implements Chassis {
     return this;
   }
 
-  public Chassis setChassisType(String vehicleChassis){
+  public void setChassisType(String vehicleChassis){
     chassisName = vehicleChassis;
   }
 
