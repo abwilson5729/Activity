@@ -7,6 +7,5 @@ public class Main {
 
         VehicleChassis myVc2 = new VehicleChassis("chaz");
         System.out.println(myVc2.toString());
-
     }
 }
